@@ -4,10 +4,10 @@ public class Random{
 
 	public static void main(String[] args) {
 	
-    int[] numeros = new int[20];
+    int[] numeros = new int[30];
     Random random = new Random();
     
-    for (int i = 0; i < 20; i++) {
+    for (int i = 0; i < 30; i++) {
         
     	numeros[i] = random.nextInt(10)+1;
     	System.out.println((i+1) + " : " + numeros[i] + " ");
